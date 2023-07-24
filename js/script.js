@@ -1,7 +1,7 @@
 //efeito do botão voltar ao Topo
 
-function tppo(){
-    window.5crollto(
+function topo(){
+    window.scrollTo(
         {
             top:0,
             left:0,
@@ -26,11 +26,11 @@ if(logado ==0){
     alart("Acesso Negado. Dados incorretos");
 }
 
-}
+
 
 //Ativar alert no botão cadastrar
 
-functin cadastro() {
+function cadastro() {
     alert("Cadastrado com sucesso!")
     window.location.href = "indes.html";
 }
